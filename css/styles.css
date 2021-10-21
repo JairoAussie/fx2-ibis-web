@@ -7,12 +7,34 @@ header{
     padding-left: 40px;
     padding-top: 20px;
 }
+header span{
+    font-size: 20px;
+}
+
 h1{
     font-size:40px;
 }
 
 h2{
     color: orange;
+}
+
+a{
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: orange;
+}
+
+a:hover{
+    background-color: lightskyblue;
 }
 
 p{
@@ -39,4 +61,8 @@ p{
 footer{
     background-color: orange;
     padding-left: 20px;
+}
+
+#footer-link{
+    color: black;
 }
