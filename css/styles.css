@@ -1,3 +1,42 @@
+body{
+    margin:0;
+}
+
 header{
     background-color: orange;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+h1{
+    font-size:40px;
+}
+
+h2{
+    color: orange;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+.main-section{
+    border:orange 8px solid;
+    padding: 10px;
+    margin: 20px;
+}
+
+.secondary-section{
+    border:orange 4px dotted;
+    padding: 10px;
+    margin: 40px;
+}
+
+#ibis-pic{
+    width: 50%;
+}
+
+footer{
+    background-color: orange;
+    padding-left: 20px;
 }
